@@ -1,0 +1,137 @@
+$navbar-color:rgb(255, 255, 255);
+$primary-color:#f77d0e;
+$nav-font-size:1em;
+$font-main:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    font-family: $font-main;
+    overflow:hidden;
+
+}
+
+nav{
+
+    padding: 10px;
+    padding-right: 10vw;
+     padding-left: 10vw;
+     background-color: $navbar-color;
+     box-shadow: 0px 3px 5px rgb(209, 209, 209);
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    
+    img{
+        max-width: 145px;
+    }
+
+    .info{
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        font-size: $nav-font-size;
+        
+    }
+
+    .info:hover{
+        color: dodgerblue;
+        text-decoration: underline;
+        transform: scale(0.98);
+    }
+
+    .btn{
+        background-color: $primary-color;
+    color:white;
+    font-size: 16px;
+    min-height:40px;
+    font-weight: 700px;
+    text-shadow: 0.5px 0.2px rgb(204, 203, 203);
+   
+    }
+
+    
+
+    .side-2{
+        display: flex;
+        margin-left: auto;
+        flex-basis: 20vw;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10vw;
+
+    }
+
+    .side-1{
+        
+        flex-basis: 20vw;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+
+
+    }
+}
+
+.btn{
+    padding: 13px;
+    outline: 0px;
+    border: 10px;
+
+    
+}
+
+
+
+.showcase-info{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    padding: 1.1rem;
+    font-family: $font-main;
+    ul{
+         padding-left: 120px;
+    }
+    & ul li{
+        font-size:18px;
+        display: inline-block;
+        text-transform: capitalize;
+        margin-right: 80px;
+       
+
+    }
+
+    
+    
+
+}
+
+.main-showcase{
+        width:100%;
+        height: 82vh;
+        
+        background-image: linear-gradient(155deg , rgb(30, 114, 192),rgb(111, 180, 248)) !important;
+        display: flex;
+      
+        align-items: center;
+        justify-content: space-around;
+       
+
+        & .details{
+           
+            font-family: Arial, Helvetica, sans-serif;
+            color:white;
+            
+        }
+
+        & .details h1{
+            font-size: 42px;
+             
+        }
+
+        & .details p{
+            font-size: 22px;
+        }
+      
+    }
